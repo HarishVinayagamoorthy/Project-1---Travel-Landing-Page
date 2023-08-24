@@ -1,0 +1,18 @@
+fonts{
+    Font-Peralta
+     Weight-400
+
+     Font-Poppins
+      Weight-700
+
+      Font-Poppins
+      Weight-400
+
+      Font-Poppins
+       Weight-500
+}
+color{
+    blue-#4B40C5
+orgeng-background: #EC682C;
+
+}
