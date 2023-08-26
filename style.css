@@ -1,0 +1,218 @@
+ :root {
+     --orange-color: #EC682C;
+     --drak-blue: #4B40C5;
+     --bule-grey: #212832;
+
+ }
+
+ *,
+ *::after,
+ *::before {
+     box-sizing: border-box;
+ }
+
+ /* it is used to create padding and boder while giving the width */
+ body {
+     margin: 0;
+     font-family: 'poppins', sans-serif;
+ }
+
+ .wrapper {
+
+     max-width: 1440px;
+     margin: 0;
+
+
+ }
+
+ .backgroung {
+
+
+     height: 100vh;
+     width: 100%;
+
+     opacity: 0.9;
+     background: url(/images/images1.png), lightgray 50% / cover no-repeat;
+     background-size: cover;
+     background-position: center;
+     position: relative;
+ }
+
+ /* buttons styleing */
+ .btn1 {
+
+     display: inline-block;
+     width: 107px;
+     height: 40px;
+     padding: 0 20px;
+     border-radius: 8px;
+     text-decoration: none;
+     color: #FFF;
+     font-family: Poppins;
+     font-size: 22.612px;
+     font-weight: 400px;
+     text-align: center;
+
+
+
+ }
+
+ .btn2 {
+
+     height: 40px;
+     padding: 4px 20px;
+     border-radius: 8px;
+     color: #FFF;
+     font-family: Poppins;
+     font-size: 22.612px;
+     font-weight: 400px;
+     text-align: center;
+     text-decoration: none;
+     margin-right: 54px;
+
+
+
+
+ }
+
+ .btn3 {
+
+     width: 195px;
+     height: 29px;
+
+     color: #FFF1DA;
+     text-align: center;
+     font-family: Poppins;
+     font-size: 23.942px;
+     font-weight: 500;
+     padding: 22px 16px;
+     border-radius: 13.301px;
+     text-decoration: none;
+
+
+ }
+
+ .btn1.Login {
+     background-color: var(--orange-color)
+ }
+
+ .btn2.sign {
+     background-color: var(--orange-color)
+ }
+
+ .blue {
+     width: 240.01px;
+     height: 75.882px;
+
+     border-radius: 13.301px;
+     background: #4B40C5;
+     color: #FFF1DA;
+
+     font-family: Poppins;
+     font-size: 23.942px;
+
+     font-weight: 500;
+     
+    padding-right: 16px;
+    padding-left: 17px;
+
+ }
+
+ .btn.blue {
+     background-color: var(--drak-blue);
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     width: 1440px;
+     top: 0;
+     z-index: 100;
+
+
+ }
+
+ .logo {
+     color: #000;
+     font-family: Peralta;
+     font-size: 40px;
+     font-weight: 400;
+     margin-top: 48px;
+     margin-left: 55px;
+
+
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 70px;
+     list-style: none;
+     margin: 0;
+     margin-top: 53px;
+
+ }
+
+ .list {
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 80px;
+     list-style: none;
+     text-decoration: none;
+     margin: 0;
+ }
+
+ .list li a {
+     color: var(--bule-grey);
+
+     font-family: Poppins;
+     font-size: 22.612px;
+
+     font-weight: bold;
+     line-height: normal;
+     list-style: none;
+     text-decoration: none;
+
+ }
+
+ .hero-section {
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     color: #FFF;
+     padding-top: 323px;
+     margin-left: 50px;
+
+
+ }
+
+ .p1tag {
+     width: 1108px;
+     height: 89px;
+     color: var(--drak-blue);
+     color: #4B40C5;
+     font-family: Poppins;
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 118.381px;
+     /* 246.627% */
+     letter-spacing: -1.92px;
+     
+ }
+
+ .p2tag {
+     width: 757px;
+     height: 47px;
+     color: #FFF;
+font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+ }
