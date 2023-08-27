@@ -381,7 +381,7 @@ section {
     font-style: normal;
     font-weight: 500;
     line-height: 124.5%;
-    /* 29.88px */
+  
 
 }
 
@@ -397,20 +397,21 @@ section {
     
     box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
     position: relative;
-    z-index: -1;
+   
 
 }
 .card2  {
-    margin-top: 40px;
+ margin-top: 40px;
     
-    width: 417.658px;
+width: 417.658px;
 height: 607.866px;
-flex-shrink: 0;
+
 
     
     box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
     position: relative;
-    z-index: -1;
+    margin-right: 81px;
+
 
 
 }
@@ -418,12 +419,13 @@ flex-shrink: 0;
     margin-top: 40px;
     width: 417.658px;
     height: 607.866px;
-    flex-shrink: 0;
+    margin-right: 36px;
+    
 
     
     box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
     position: relative;
-    z-index: -1;
+    
 
 }
 /* images of cards */
@@ -442,7 +444,7 @@ flex-shrink: 0;
 
 /* card1 layer start here */
 .layer-card1 {
-    margin: 0;
+    
     height: 172.916px;
     width: 418.988px;
 
@@ -456,6 +458,7 @@ flex-shrink: 0;
 
 /* card2 layer start here */
 .layer-card2 {
+    
     position: absolute;
     width: 418.988px;
     height: 172.916px;
@@ -574,8 +577,9 @@ flex-shrink: 0;
 
 .cards-row {
     
-    
-   
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
    
     
  
