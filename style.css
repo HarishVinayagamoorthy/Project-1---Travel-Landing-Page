@@ -210,6 +210,7 @@ section {
     background-size: cover;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 
@@ -247,7 +248,7 @@ section {
     margin-left: 230px;
 }
 
-.section1-cards {}
+/* .section1-cards {} */
 
 /* catergory Calculated Weather  */
 .section1-content img {
@@ -339,7 +340,10 @@ section {
 /* section 2 start here */
 
 .topselling-container {
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 112px;
 }
 
 .topselling-container p {
@@ -351,6 +355,7 @@ section {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
 
 
 
@@ -381,33 +386,35 @@ section {
     font-style: normal;
     font-weight: 500;
     line-height: 124.5%;
-  
+
 
 }
 
 /* cards start here */
 /* common card for all cards */
-.card1  {
+.card1 {
     margin-top: 40px;
-   
+    margin-left: 21.23px;
     width: 417.658px;
     height: 607.866px;
-    
+    box-shadow: 0px;
 
-    
+
+
     box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
     position: relative;
-   
+
 
 }
-.card2  {
- margin-top: 40px;
-    
-width: 417.658px;
-height: 607.866px;
+
+.card2 {
+    margin-top: 40px;
+
+    width: 417.658px;
+    height: 607.866px;
 
 
-    
+
     box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
     position: relative;
     margin-right: 81px;
@@ -415,23 +422,25 @@ height: 607.866px;
 
 
 }
-.card3  {
+
+.card3 {
     margin-top: 40px;
     width: 417.658px;
     height: 607.866px;
     margin-right: 36px;
-    
 
-    
+
+
     box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
     position: relative;
-    
+
 
 }
+
 /* images of cards */
 
-    
-    
+
+
 
 
 /* common class for  card images  */
@@ -444,7 +453,7 @@ height: 607.866px;
 
 /* card1 layer start here */
 .layer-card1 {
-    
+
     height: 172.916px;
     width: 418.988px;
 
@@ -458,7 +467,7 @@ height: 607.866px;
 
 /* card2 layer start here */
 .layer-card2 {
-    
+
     position: absolute;
     width: 418.988px;
     height: 172.916px;
@@ -472,15 +481,15 @@ height: 607.866px;
 
 /* card3 layer start here */
 .layer-card3 {
-        position: absolute;
-        width: 419.988px;
-        height: 172.916px;
-        flex-shrink: 0;
-        border-radius: 0px 0px 31.923px 31.923px;
-        background: var(--white, #FFF);
-        top: 438px;
-        right: -108px;
-    }
+    position: absolute;
+    width: 419.988px;
+    height: 172.916px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 31.923px 31.923px;
+    background: var(--white, #FFF);
+    top: 438px;
+    right: -108px;
+}
 
 /* content of cards1 */
 .layer-card1>span>p {
@@ -576,14 +585,164 @@ height: 607.866px;
 /* total card row */
 
 .cards-row {
-    
+
     display: flex;
     flex-direction: row;
-    align-items: center; 
-   
-    
- 
+    align-items: center;
 
+
+
+
+
+
+
+}
+
+/* section 3 start here */
+.section3{
+    display: flex;
+    justify-content: center;
+     height: 100vh;
+     width: 100wh;
+   
+     margin-top: 747px
+}
+/* section-3 total container */
+.section3-container {
+    display: flex;
+    justify-content: center;
+     height: 100vh;
+     width: 100%;
+     margin-right: 190px;
+     margin-top: -635px;
+
+  
+
+
+}
+
+/* section3  left side Head lines */
+
+.section3content-left span p {
+    width: 204px;
+    height: 32px;
+    color: var(--textclr, #5E6282);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 23.942px;
+    font-weight: 600;
     
+
+}
+
+.section3content-left h1 {
+    width: 686px;
+    height: 155px;
+    color: var(--3rd, #14183E);
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 18px;
+    margin-left: 3px;
+}
+
+/* section-3 left-contens */
+
+.left-headlines{
+ 
+    margin-top:38px;
+    
+}
+.Head-line1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-headlines h1 {
+
+    margin-bottom: 16px;
+    width: 268px;
+    height: 24px;
+    color: var(--textclr, #5E6282);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%;
+  
+    
+    /* 29.88px */
+}
+
+.left-headlines span p {
+    width: 448px;
+    height: 47px;
+    text-align: justify;
+    
+    color: var(--textclr, #5E6282);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.5%;
+    /* 22.41px */
+}
+
+/* left side headlines star here */
+.left-icon {
+    width: 56.324px;
+    height: 57.522px;
+    display: inline-block;
+margin-top: 30.03px;
+margin-bottom: 20px;
+display: flex;
+
+}
+
+.Head-line1 span  {
+    
+    margin-top: 20px;
+    margin-right:164px ;
+}
+
+
+  /* section right-side content */
+.section3content-right{
+
+
+  
+
+}
+ /* rght side backgroun-img */
+.ellipse {
+
+width: 424.228px;
+height: 439.807px;
+flex-shrink: 0;
+margin-left: 127px;
+margin-top: -44px;
+
+}
+
+
+/* rght-side layer img */
+
+.right-layer{
+    width: 443.402px;
+    height: 479.354px;
+    flex-shrink: 0;
+    border-radius: 34.583px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
+     
+}
+.rightside-img{
+    width: 384.681px;
+height: 192.94px;
+margin-left: 27px;
+border-radius: 31.923px;
+background:lightgray 50% / cover no-repeat;
 
 }
