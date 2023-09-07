@@ -335,6 +335,7 @@ line-height: 34.583px;
   justify-content: center;
   align-items: center;
   align-content: center;
+ 
   margin-left: 306px;
   
 /*      
@@ -406,22 +407,22 @@ width: 58.642px;
 height: 61.413px;
 flex-shrink: 0;
     position: relative;
-    top: 856px;
-    right: 887px;
+    top: -218px;
+    right: 1191px;
 }
 
 .rectangle-orange{
 
     position: relative;
-    top: 1270px;
-    right: 988px;
+    top: 214px;
+    right: 1096px;
     z-index: -1;
 }
 
 .rectangle-blue{
     position: relative;
-    top: -149px;
-    right: 420px;
+    top: -141px;
+    right: 557px;
     z-index: -2;
 }
 
