@@ -19,6 +19,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    height: 100vh;
+    width: 100%;
 }
 
 /* header start here */
@@ -213,57 +215,216 @@ section {
     flex-direction: column;
     align-items: center;
 
+   
+   
+
 }
 
-.Section1-Category p {
+
+
+.Section1-Category{
+    
+
+    
+}
+.section-heading{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.section-heading h2 {
+    
     width: 270px;
     height: 34px;
-    flex-shrink: 0;
     color: #4B40C5;
-    margin-left: 500px;
-    text-align: center;
     font-family: Poppins;
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    margin-top: 77px;
-
-
-
+    margin-top: 74px;
+   
+    
+    
 }
 
-.Section1-Category h1 {
+
+.section-heading h1 {
+    
     width: 898px;
     height: 81px;
     flex-shrink: 0;
-    color: var(--3rd, #14183E);
-    text-align: center;
+    color: var(--3rd, #14183E); 
     font-family: Poppins;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    text-align: center;
     margin-top: 40px;
-    margin-left: 230px;
+
+
+    
 }
+/* section 1 card para */
+
+.section1-cards{
+    
+}
+.section1-para1{
+    width: 226px;
+height: 145px;
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34.583px; 
+margin-left: 43px;
+
+
+}
+.section1-para2{
+    width: 212px;
+height: 136px;
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34.583px; 
+
+}
+
+.section1-para3{
+    width: 212.285px;
+height: 97.759px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34.583px; 
+}
+.section1-para4{
+    width: 217px;
+height: 166px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34.583px; 
+    
+}
+
+
+
 
 /* .section1-cards {} */
 
+.section1-totalcolumn{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+     
+  margin-left: -60px;
+
+
+  
+   
+
+}
+.section1-cards{
+
+}
+
+
 /* catergory Calculated Weather  */
-.section1-content img {
-    margin-left: 152px;
-    margin-top: 134px;
+
+/* section 1 icons */
+
+
+.section1-content{
+    margin-top: 134.78px;
+    margin-left: 55px;
+    position: relative;
+
+    
+    
+ 
+}
+
+.section1-cardimage{
+    margin-left: 98px;
+    
+}
+
+
+.antana {
     width: 107.902px;
     height: 97.762px;
     flex-shrink: 0;
 
 }
+.plan-bg{
+    width: 58.642px;
+height: 61.413px;
+margin-left: -29px;
+
+
+}
+
+.mic{
+    width: 75.592px;
+height: 103px;
+margin-top: -45px;
+
+
+}
+
+.setting{
+
+    width: 84.642px;
+height: 86px;
+
+}
+
+
+.flight-img{
+width: 58.642px;
+height: 61.413px;
+flex-shrink: 0;
+    position: absolute;
+    top: 856px;
+    right: 887px;
+}
+
+.rectangle-orange{
+
+    position: absolute;
+    top: 1270px;
+    right: 988px;
+    z-index: -1;
+}
+
+.rectangle-blue{
+    position: absolute;
+    top: 900px;
+    right: 310px;
+    z-index: -2;
+}
 
 .section1-content h3 {
-    margin-top: 30.46;
-    margin-left: 75px;
+    margin-top: 30.46px;
+    
     display: flex;
     width: 253px;
     height: 34px;
@@ -271,7 +432,7 @@ section {
     justify-content: center;
     flex-shrink: 0;
     color: #000;
-    text-align: center;
+    margin-left: 38px;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
@@ -280,7 +441,7 @@ section {
 
 }
 
-.section1-content p {
+/* .section1-content p {
     margin-top: 16px;
     margin-left: 84px;
     width: 226px;
@@ -294,57 +455,58 @@ section {
     font-weight: 400;
     line-height: 34.583px;
 
-    /* 172.916% */
-}
+   
+} */
 
 /* catergory Best Flights */
 
-
-
-.flightcards {
-    width: 313.15px;
-    height: 390.544px;
-    flex-shrink: 0;
-    border-radius: 47.884px;
-    background: var(--white, #FFF);
-    position: relative;
-    box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
-}
-
-
-
-/* catergory Mic */
-.miccard {
+.cards-boxshadow1{
 
     width: 313.15px;
-    height: 390.544px;
+    height: 393.544px;
     flex-shrink: 0;
     border-radius: 47.884px;
-    background: var(--white, #FFF);
-    box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
+background: var(--white, #FFF);
+box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
+margin-left: 21.44px;
+margin-top: 37px;
+
+}
+
+
+.cards-boxshadow2{
+
+    width: 313.15px;
+    height: 393.544px;
+    flex-shrink: 0;
+    border-radius: 47.884px;
+background: var(--white, #FFF);
+box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
+margin-left: 81px;
+margin-top: 37px;
 }
 
 
 
 
-.section1-totalcolumn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
 
-}
+
 
 /* catergory is end here */
 
 
 /* section 2 start here */
+.cards{
+    margin-top: 112px;
+}
 
 .topselling-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 112px;
+    flex-wrap: wrap;
 }
 
 .topselling-container p {
@@ -393,16 +555,20 @@ section {
 
 /* cards start here */
 /* common card for all cards */
+
+
 .card1 {
     margin-top: 40px;
-    margin-left: 21.23px;
-    width: 417.658px;
+    /* margin-left: 21.23px; */
+    width:280.658px;
     height: 607.866px;
     box-shadow: 0px;
+    margin-right: 10px;
+    
 
 
 
-    box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
+    /* box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02); */
     position: relative;
 
 
@@ -411,14 +577,14 @@ section {
 .card2 {
     margin-top: 40px;
 
-    width: 417.658px;
+    width: 300.658px;
     height: 607.866px;
 
 
 
-    box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
+    /* box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02); */
     position: relative;
-    margin-right: 81px;
+    margin-right: 20px;
 
 
 
@@ -426,13 +592,14 @@ section {
 
 .card3 {
     margin-top: 40px;
-    width: 417.658px;
+    width: 300.658px;
     height: 607.866px;
-    margin-right: 36px;
+    margin-left:55px;
+    
 
 
 
-    box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
+    /* box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02); */
     position: relative;
 
 
@@ -462,8 +629,8 @@ section {
     border-radius: 0px 0px 31.923px 31.923px;
     background: var(--white, #FFF);
     position: absolute;
-    top: 437px;
-    right: -22px;
+    top: 439px;
+    right: -159px;
 }
 
 /* card2 layer start here */
@@ -476,8 +643,7 @@ section {
     border-radius: 0px 0px 31.923px 31.923px;
     background: var(--white, #FFF);
     top: 438px;
-
-    right: -108px;
+    right: -225px;
 }
 
 /* card3 layer start here */
@@ -489,7 +655,7 @@ section {
     border-radius: 0px 0px 31.923px 31.923px;
     background: var(--white, #FFF);
     top: 438px;
-    right: -108px;
+    right: -225px;
 }
 
 /* content of cards1 */
@@ -590,8 +756,10 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
-
-
+    gap: 60px;
+    margin-left: -207px;
+    padding-right: 50px;
+    padding-left: 10px;
 
 
 
@@ -920,10 +1088,13 @@ section {
 
 /* Section 4 is start here */
 
+.section-4{
+    margin-top: -151px;
 
+}
 .section4-container {
 
-    margin-top: 30px;
+    margin-top: px;
 
 }
 
@@ -1022,7 +1193,7 @@ section {
 
 .sevtion4-cards {
     display: flex;
-    gap: 57px;
+    gap: 50px;
 
 }
 
@@ -1257,6 +1428,7 @@ section {
     font-style: normal;
     font-weight: 500;
     line-height: 124.5%;
+
     /* 29.88px */
 }
 
@@ -1318,6 +1490,7 @@ section {
     font-style: normal;
     font-weight: 500;
     line-height: 124.5%;
+
     /* 29.88px */
 
 }
@@ -1341,7 +1514,7 @@ section {
     width: 54.535px;
     height: 54.535px;
     display: flex;
-
+     gap: 30px;
 
 
 }
