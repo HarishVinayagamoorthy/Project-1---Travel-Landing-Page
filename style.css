@@ -1152,7 +1152,9 @@ margin-top: 37px;
 
 
 .section4-cards {
-
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin-top: 69.72px;
     position: relative;
 
@@ -1197,6 +1199,8 @@ margin-top: 37px;
 
 .sevtion4-cards {
     display: flex;
+    justify-content: center;
+   
     gap: 50px;
 
 }
@@ -1260,6 +1264,7 @@ margin-top: 37px;
 
     margin-top: 184px;
     margin-left: 22px;
+    flex-wrap: wrap;
 
 
 
@@ -1384,6 +1389,9 @@ margin-top: 37px;
     display: flex;
     gap: 77px;
     margin-top: 283px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
 }
 
