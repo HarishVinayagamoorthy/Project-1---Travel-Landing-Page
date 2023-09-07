@@ -214,6 +214,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
    
    
@@ -224,7 +225,7 @@ section {
 
 .Section1-Category{
     
-
+    
     
 }
 .section-heading{
@@ -334,8 +335,10 @@ line-height: 34.583px;
   justify-content: center;
   align-items: center;
   align-content: center;
-     
-  margin-left: -60px;
+  margin-left: 306px;
+  
+/*      
+  margin-left: -60px; */
 
 
   
@@ -355,7 +358,7 @@ line-height: 34.583px;
 .section1-content{
     margin-top: 134.78px;
     margin-left: 55px;
-    position: relative;
+    
 
     
     
@@ -402,23 +405,23 @@ height: 86px;
 width: 58.642px;
 height: 61.413px;
 flex-shrink: 0;
-    position: absolute;
+    position: relative;
     top: 856px;
     right: 887px;
 }
 
 .rectangle-orange{
 
-    position: absolute;
+    position: relative;
     top: 1270px;
     right: 988px;
     z-index: -1;
 }
 
 .rectangle-blue{
-    position: absolute;
-    top: 900px;
-    right: 310px;
+    position: relative;
+    top: -149px;
+    right: 420px;
     z-index: -2;
 }
 
@@ -1418,7 +1421,7 @@ margin-top: 37px;
     font-weight: 700;
     line-height: 124.5%;
     /* 39.84px */
-    margin-top: px;
+    
 }
 
 .footer-secondcontent ul li a {
@@ -1431,6 +1434,7 @@ margin-top: 37px;
 
     /* 29.88px */
 }
+
 
 /* footer  third column content  */
 
@@ -1508,7 +1512,12 @@ margin-top: 37px;
 }
 /* footer fiveth content */
 
-.footer-fivethcontent {}
+.footer-fivethcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
 
 .footer-icons {
     width: 54.535px;
@@ -1519,7 +1528,7 @@ margin-top: 37px;
 
 }
 
-.fivethcontent-sub p {
+ .fivethcontent-sub p {
     color: var(--textclr, #5E6282);
     font-family: Poppins;
     font-size: 26.602px;
@@ -1529,6 +1538,7 @@ margin-top: 37px;
     /* 33.12px */
     letter-spacing: 0.133px;
     margin-bottom: 21px;
+    text-align: center;
 
 }
 
@@ -1537,6 +1547,10 @@ margin-top: 37px;
     display: flex;
     gap: 24.1px;
 }
+
+
+
+
 
 /* .footer-lasticon1 .playstore-icon {}
 
@@ -1554,3 +1568,8 @@ margin-top: 37px;
     line-height: 124.5%; /* 23.184px */
     text-align: center;
 }
+
+
+
+
+
