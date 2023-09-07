@@ -1322,6 +1322,7 @@ margin-top: 37px;
     height: 78.49px;
     border-radius: 13.301px;
     background: var(--white, #FFF);
+    border: none;
 
 }
 
@@ -1503,11 +1504,14 @@ margin-top: 37px;
     font-style: normal;
     font-weight: 500;
     line-height: 124.5%;
+   
 
     /* 29.88px */
 
 }
+.footer-fourthcontent ul li{
 
+}
 .footer-content ul {
     margin-top: 37px;
     list-style: none;
@@ -1525,6 +1529,7 @@ margin-top: 37px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 10px;
 
 }
 
@@ -1532,7 +1537,9 @@ margin-top: 37px;
     width: 54.535px;
     height: 54.535px;
     display: flex;
-     gap: 30px;
+    
+    align-items: center;
+     
 
 
 }
@@ -1554,7 +1561,7 @@ margin-top: 37px;
 .footer-lasticons {
 
     display: flex;
-    gap: 24.1px;
+     gap: 24.1px; 
 }
 
 
