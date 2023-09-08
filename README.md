@@ -1,4 +1,4 @@
-# Project-1---Travel-Landing-Page
+# Travel-Landing-Page
 
 ```markdown
 # Travel Landing Project
