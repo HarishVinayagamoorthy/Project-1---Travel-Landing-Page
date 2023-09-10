@@ -19,10 +19,7 @@ Feel free to use this project as a template or starting point for your own trave
 
 
 ---
-
 Happy coding! 
-
-```
 
 
 
