@@ -20,7 +20,8 @@ Feel free to use this project as a template or starting point for your own trave
 
 ---
 
-Happy coding! If you have any questions or suggestions, please feel free to [open an issue](https://github.com/HarishVinayagamoorthy/Project-1---Travel-Landing-Page).
+Happy coding! If you have any questions or suggestions, please feel free to [open an issue]
+```bash(https://github.com/HarishVinayagamoorthy/Project-1---Travel-Landing-Page).
 ```
 
 
