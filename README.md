@@ -1,6 +1,3 @@
-# Travel-Landing-Page
-
-```markdown
 # Travel Landing Project
 
 Welcome to the Travel Landing project! This project is a simple landing page for a travel-related website, built using pure HTML and CSS.
