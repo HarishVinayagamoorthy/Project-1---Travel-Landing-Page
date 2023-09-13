@@ -35,6 +35,7 @@ header {
     background-size: cover;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 
 
 
@@ -47,6 +48,7 @@ nav {
 
     text-align: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -112,7 +114,7 @@ nav ul li .orange-btns1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
+          flex-wrap: wrap;
 
 }
 
@@ -133,6 +135,8 @@ nav ul li .orange-btns2 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
+    
 }
 
 /* navigation end here */
@@ -201,7 +205,7 @@ nav ul li .orange-btns2 {
 
 /* header ends  here */
 
-/* section1  Category start here */
+/* section1  Category start here ------------------------------------------------------------------------------------*/
 
 
 section {
@@ -225,7 +229,11 @@ section {
 
 .Section1-Category{
     
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    flex-wrap: wrap;
     
 }
 .section-heading{
@@ -359,6 +367,7 @@ line-height: 34.583px;
 .section1-content{
     margin-top: 134.78px;
     margin-left: 55px;
+    
     
 
     
@@ -497,12 +506,17 @@ margin-top: 37px;
 
 
 
-/* catergory is end here */
+/* catergory is end here ------------------------------------------------------------------------------------------------*/
 
 
 /* section 2 start here */
 .cards{
-    margin-top: 112px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
 .topselling-container {
@@ -511,6 +525,10 @@ margin-top: 37px;
     align-items: center;
     margin-top: 112px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .topselling-container p {
@@ -776,9 +794,11 @@ margin-top: 37px;
     display: flex;
     justify-content: center;
     height: 100vh;
-    width: 100wh;
+    width: 100%;
     position: relative;
-    margin-top: 747px
+    margin-top: 747px;
+    flex-wrap: wrap;
+    
 }
 
 /* section-3 total container */
@@ -789,6 +809,7 @@ margin-top: 37px;
     width: 100%;
     margin-right: 46px;
     margin-top: -635px;
+    flex-wrap: wrap;
 
 
 
@@ -907,6 +928,9 @@ margin-top: 37px;
 /* rght-side layer img */
 
 .right-layer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 443.402px;
     height: 479.354px;
     flex-shrink: 0;
@@ -915,7 +939,7 @@ margin-top: 37px;
     box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
     position: absolute;
     top: 87px;
-
+    flex-wrap: wrap;
     right: 101px;
 
 
@@ -933,6 +957,10 @@ margin-top: 37px;
 
 /* Right side-Big Layer box */
 .rightlayer-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-left: 30px;
     margin-top: -25px;
 }
@@ -983,7 +1011,9 @@ margin-top: 37px;
 
 /* Right side- small Layer box :start here */
 
-.small-layer {
+.small-layer { 
+    display: flex;
+    flex-wrap: wrap;
     position: absolute;
     top: 28px;
     right: 15px;
@@ -1165,6 +1195,8 @@ margin-top: 37px;
     display: flex;
     justify-content: center;
     margin-top: 69px;
+    flex-wrap: wrap;
+    
     gap: 391px;
 
     top: -113px;
@@ -1212,6 +1244,9 @@ margin-top: 37px;
     background: #FFF;
     box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
     justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -1219,13 +1254,16 @@ margin-top: 37px;
     width: 327px;
     height: 43px;
     color: #000;
-    margin-left: 63px;
+    /* margin-left: 63px; */
     font-family: Poppins;
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 
 }
 
@@ -1238,15 +1276,20 @@ margin-top: 37px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    display: flex;
+    justify-content: center;
     line-height: 180%;
     /* 36px */
-    margin-top: 64px;
-    margin-left: 53px;
+    /* margin-top: 64px;
+    margin-left: px; */
 }
 
 .section4-card2-content {
     flex-direction: column;
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 /* section 4  cards   END here */
@@ -1263,14 +1306,17 @@ margin-top: 37px;
 .section5-container {
 
     margin-top: 184px;
-    margin-left: 22px;
+    /* margin-left: 22px; */
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 
 
 
 }
 
 .section5-totalcontent {
+    justify-content: center;
     width: 1350.493px;
     height: 484.792px;
     flex-shrink: 0;
@@ -1283,6 +1329,7 @@ margin-top: 37px;
     background: var(--light-color, #DFD7F9);
     margin-top: 107px;
     position: relative;
+    
 
 }
 
@@ -1302,8 +1349,8 @@ margin-top: 37px;
     line-height: 71.827px;
     /* 224.458% */
     margin-left: 194.58px;
-
-
+        
+      
 
 }
 
@@ -1385,6 +1432,13 @@ margin-top: 37px;
 /* section 5 is end here */
 
 /* footer is start Here */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
 
 .footer-content {
     display: flex;
@@ -1584,6 +1638,11 @@ margin-top: 37px;
     line-height: 124.5%; /* 23.184px */
     text-align: center;
 }
+
+
+
+
+
 
 
 
